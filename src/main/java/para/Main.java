@@ -35,8 +35,6 @@ public class Main {
         System.out.println("\n-------------\n");
 
 
-
-
         //Ex BONUS
         //Paralelismo Usando ArrayList externo ------------------------------------
         System.out.println("Iniciando parte 2...");
@@ -52,9 +50,7 @@ public class Main {
         System.out.println("Lista Perigosa: " + listaPerigosa.size());
         listaPerigosa.forEach(System.out::println);
 
-
         System.out.println("\n-------------\n");
-
 
         //Modo certo
         List<Transacao> lista = new ArrayList<>();
@@ -63,5 +59,7 @@ public class Main {
 
         System.out.println("Lista Correta: " + lista.size());
         lista.forEach(System.out::println);
+
+
     }
 }
